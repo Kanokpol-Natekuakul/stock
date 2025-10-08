@@ -3,6 +3,11 @@ declare global {
         email: string;
         password: string;
     };
+    type UserForNewsEmail = {
+        email: string;
+        name: string;
+    };
+
 
     type SignUpFormData = {
         fullName: string;
